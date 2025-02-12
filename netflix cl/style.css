@@ -281,7 +281,6 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1px;
     font-family: 'Martin Sans', 'Poppins';
-    margin: 1x 1px;
     font-weight: 200;
     font-size: 14px;
 }
@@ -291,7 +290,7 @@ footer a {
 
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
     .main{
         width: 100%;
 
@@ -360,8 +359,7 @@ footer a {
         justify-content: center;
     }
 
-    .footer {
-        display: grid;
+    footer {
         grid-template-columns: 1fr 1fr;
         gap: 25px;
     }
